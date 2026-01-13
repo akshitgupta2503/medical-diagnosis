@@ -8,6 +8,9 @@ __Capstone-2: LPU | CAP347 CARGC0019__
 
 ![Pyhon 3.4](https://img.shields.io/badge/ide-Jupyter_notebook-blue.svg) ![Python](https://img.shields.io/badge/Language-Python-brightgreen.svg)  ![Frontend](https://img.shields.io/badge/Frontend-Bootstrap-purple.svg)  ![Frontend](https://img.shields.io/badge/Libraries-Streamlit-purple.svg)    ![Bootstrap](https://img.shields.io/badge/BaseEnvironment-AnacondaPrompt-brown.svg)   ![Bootstrap](https://img.shields.io/badge/Deployment-Github-yellow.svg)   ![Bootstrap](https://img.shields.io/badge/Debugging-LocalHost-blue.svg)  
 
+![CI](https://github.com/akshitgupta2503/medical-diagnosis/actions/workflows/ci.yml/badge.svg)
+
+
 ## Table of Content
   * [Problem statment / Why this topic?](#Problem-statment)
   * [Flow Chart / Archeticture](#Flow-chart)
@@ -161,6 +164,27 @@ __Links for Python Notebooks used for model creation__
 * [Liver Disease Notebook](https://github.com/venugopalkadamba/Multi_Disease_Predictor/blob/master/Python%20Notebooks/Liver_Disease_Prediction.ipynb)
 
 
+## CI / Deployment 🔧
+
+- **CI**: A GitHub Actions workflow is added at `.github/workflows/ci.yml` and runs on push and pull requests to `main`. It installs project dependencies, runs `flake8` (non-blocking), and performs a smoke test by importing the Flask app.
+
+- **Deploy (Heroku)**: A GitHub Actions workflow is added at `.github/workflows/deploy-heroku.yml` and runs on push to `main`. It deploys using the `akhileshns/heroku-deploy` action and requires the following repository secrets to be set:
+  - `HEROKU_API_KEY` (your Heroku API key)
+  - `HEROKU_APP_NAME` (the Heroku app name)
+  - `HEROKU_EMAIL` (your Heroku account email)
+
+Setup (example):
+1. Install Heroku CLI and log in: `heroku login`
+2. (Optional) Create an app: `heroku create <your-app-name>`
+3. Get your API key: `heroku auth:token`
+4. Set repository secrets (via GitHub CLI):
+```
+gh secret set HEROKU_API_KEY --body "<your-heroku-api-key>"
+gh secret set HEROKU_APP_NAME --body "<your-heroku-app-name>"
+gh secret set HEROKU_EMAIL --body "you@example.com"
+```
+
+Once the secrets are set, pushing to `main` will trigger the deployment.
 
 
 ## Team
