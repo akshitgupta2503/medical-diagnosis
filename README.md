@@ -104,8 +104,6 @@ index.html
 ![g5](https://user-images.githubusercontent.com/62024355/120784749-0bbb2d00-c54a-11eb-9d8a-3f4b53b9f208.jpg)
 ![g6](https://user-images.githubusercontent.com/62024355/120784751-0c53c380-c54a-11eb-8401-6353e69ff728.jpg)
 ![g7](https://user-images.githubusercontent.com/62024355/120784730-078f0f80-c54a-11eb-8c37-dffa48791db5.jpg)
-![Untitled](https://user-images.githubusercontent.com/62024355/120785788-1a561400-c54b-11eb-85d7-dcc64bb959f8.png)
-![Untitled1](https://user-images.githubusercontent.com/62024355/120785797-1cb86e00-c54b-11eb-8323-47ab1312e6d6.png)
 ![2](https://user-images.githubusercontent.com/62024355/120785800-1d510480-c54b-11eb-8bc6-65447a5bd264.png)
 ![3](https://user-images.githubusercontent.com/62024355/120785802-1de99b00-c54b-11eb-9c62-68e470eecd31.png)
 ![7](https://user-images.githubusercontent.com/62024355/120785806-1de99b00-c54b-11eb-88ed-238fa0e9b0c1.png)
@@ -179,22 +177,12 @@ gh secret set HEROKU_EMAIL --body "you@example.com"
 
 Once the secrets are set, pushing to `main` will trigger the deployment.
 
-
-## Team
-![1622949162341](https://user-images.githubusercontent.com/62024355/120911263-703dcf80-c6a3-11eb-874f-93b538270b4e.jpg)
-
-
-
-[Karan Mehra (Data modeling, model integration, Front-end)](https://karanmehra7107.github.io/My-Portfolio/index.html) <br> [Surbhi (Exploratory Data cleaning, Data gathering)](https://github.com/Surbhisingh014) 
-<br>[Navdeep Nijjar (Quality assurance, content writter)](https://karanmehra7107.github.io/My-Portfolio/index.html)
-
-
 __Special thanks to:__ Dr. Amar Singh (Assoicate professr) AI in data science & Machine learning.
 
 ## License
 [![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
 
-Copyright 2021 Karan Mehra | Surbhi | Navdeep
+Copyright 2023
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
