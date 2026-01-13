@@ -1,8 +1,5 @@
 # Medical_Diagnosis |  A Machine Learning Based Web Application
 
-__Capstone-2: LPU | CAP347 CARGC0019__
-
-
 ![Pyhon 3.4](https://img.shields.io/badge/ide-Jupyter_notebook-blue.svg) ![Python](https://img.shields.io/badge/Language-Python-brightgreen.svg)  ![Frontend](https://img.shields.io/badge/Frontend-Bootstrap-purple.svg)  ![Frontend](https://img.shields.io/badge/Libraries-Streamlit-purple.svg)    ![Bootstrap](https://img.shields.io/badge/BaseEnvironment-AnacondaPrompt-brown.svg)   ![Bootstrap](https://img.shields.io/badge/Deployment-Github-yellow.svg)   ![Bootstrap](https://img.shields.io/badge/Debugging-LocalHost-blue.svg)  
 
 ![CI](https://github.com/akshitgupta2503/medical-diagnosis/actions/workflows/ci.yml/badge.svg)
